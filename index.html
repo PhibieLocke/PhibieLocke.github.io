@@ -6,11 +6,11 @@
     <title>Eva Elfie FanVerse | TikTok-Style Fan Hub</title>
     <meta
       name="description"
-      content="Eva Elfie FanVerse is a creative fan profile with trend trackers, fan games, and daily challenges inspired by TikTok-style communities."
+      content="Eva Elfie FanVerse is a late-night fan profile with trend trackers, fan games, lore threads, and viral challenge loops."
     />
     <meta
       name="keywords"
-      content="Eva Elfie fan page, Eva Elfie trends, fan profile, TikTok style fan page, fan challenges, fan edits"
+      content="Eva Elfie fan page, fan lore, viral fan trends, chaotic twitter fandom, TikTok style fan page, fan challenges"
     />
     <meta name="robots" content="index, follow, max-image-preview:large" />
     <meta name="author" content="Eva Elfie FanVerse Community" />
@@ -20,7 +20,7 @@
     <meta property="og:title" content="Eva Elfie FanVerse | TikTok-Style Fan Hub" />
     <meta
       property="og:description"
-      content="Discover trend-driven fan challenges, community games, and creative profile content in a TikTok-inspired fan hub."
+      content="Discover night-shift fan challenges, community games, and lore-driven profile content in a TikTok-inspired fan hub."
     />
     <meta property="og:url" content="https://YOUR-USERNAME.github.io/i-love-eva-elfie/" />
     <meta property="og:image" content="https://YOUR-USERNAME.github.io/i-love-eva-elfie/preview.png" />
@@ -55,19 +55,19 @@
           <a href="#daily-spark">Daily Spark</a>
           <a href="#trend-lab">Trend Lab</a>
           <a href="#fan-games">Fan Games</a>
-          <a href="#pulse-board">Pulse Board</a>
+          <a href="#ops-console">Ops Console</a>
         </div>
       </nav>
       <section class="hero-content">
         <p class="badge">#EvaElfieFanVerse</p>
         <h1>Eva Elfie FanVerse</h1>
         <p>
-          A TikTok-style fan profile built for fast content loops, community challenges,
-          and creative momentum.
+          A high-intensity fan hub for dark-timeline meme culture: optimize hooks,
+          scale engagement loops, and run nonstop challenge cycles.
         </p>
         <div class="hero-actions">
-          <a href="#fan-games" class="btn btn-primary">Play Fan Games</a>
-          <a href="#trend-lab" class="btn btn-ghost">Explore Trends</a>
+          <a href="#fan-games" class="btn btn-primary">Launch Challenge</a>
+          <a href="#ops-console" class="btn btn-ghost">Open Ops Console</a>
         </div>
       </section>
     </header>
@@ -76,84 +76,94 @@
       <section id="daily-spark" class="panel">
         <h2>Daily Spark Grid</h2>
         <p>
-          Designed for traction: every card is a fast-turnaround prompt for edits,
-          comments, duets, and fan storytelling.
+          Built for obsessive fan cycles: each block is engineered for fast posting,
+          reply storms, and repeat view behavior.
         </p>
         <div class="grid cards-3">
           <article class="card">
-            <h3>Morning Prompt</h3>
-            <p>Drop one caption idea that feels viral in under 8 words.</p>
+            <h3>Hook Forge</h3>
+            <p>Write a 7-word opener that hits inside 2 seconds.</p>
           </article>
           <article class="card">
-            <h3>Prime-Time Hook</h3>
-            <p>Build a 3-second opener for your next fan edit.</p>
+            <h3>Comment Trigger</h3>
+            <p>Drop a binary poll to force instant audience choice.</p>
           </article>
           <article class="card">
-            <h3>Midnight Loop</h3>
-            <p>Share the scene vibe that deserves a remix challenge.</p>
+            <h3>Lore Seed</h3>
+            <p>Post one unresolved theory and demand quote replies.</p>
           </article>
         </div>
       </section>
 
       <section id="trend-lab" class="panel panel-accent">
-        <h2>Trend Lab: What Fans Are Testing</h2>
+        <h2>Night Shift Trend Lab</h2>
         <div class="grid cards-2">
           <article class="card">
             <h3>Format Experiments</h3>
             <ul>
-              <li>POV split-screen edits</li>
-              <li>Voiceover reaction micro-recaps</li>
-              <li>“Rate this vibe” 5-second loops</li>
+              <li>2-second doom-scroll hooks</li>
+              <li>Quote-war recap clips</li>
+              <li>Looped bracket battles</li>
             </ul>
           </article>
           <article class="card">
             <h3>Growth Mechanics</h3>
             <ul>
-              <li>Pin 1 challenge + 1 poll + 1 call-to-comment</li>
-              <li>Use fan lore tags across every post</li>
-              <li>Publish in serials: Ep. 1, 2, 3 for retention</li>
+              <li>1 pinned challenge + 1 poll + 1 aggressive CTA</li>
+              <li>Recurring lore tags in every upload</li>
+              <li>Serialized posts to farm return viewers</li>
             </ul>
           </article>
         </div>
       </section>
 
       <section id="fan-games" class="panel">
-        <h2>Fan Games & Bold Suggestion Engine</h2>
+        <h2>After-Dark Fan Games</h2>
         <p>
-          Unique engagement layer: gamified fan participation with creative (and spicy)
-          suggestions for community content.
+          Engagement engine for hyper-online fans. Generate mission prompts,
+          track streaks, and maintain momentum with measurable loop signals.
         </p>
         <div class="grid cards-3">
           <article class="card">
-            <h3>Caption Clash</h3>
-            <p>Compete to write the highest-energy caption in one line.</p>
+            <h3>Challenge Generator</h3>
+            <p id="spinner-output">Tap to generate your next challenge.</p>
+            <div class="button-row">
+              <button id="spin-btn" class="btn btn-primary" type="button">Generate</button>
+              <button id="complete-btn" class="btn btn-ghost" type="button">Mark Complete</button>
+            </div>
           </article>
           <article class="card">
-            <h3>Trend Bingo</h3>
-            <p>Mark off fan trends as they appear and share your bingo board.</p>
+            <h3>Streak Meter</h3>
+            <p>Consecutive completed missions:</p>
+            <p class="metric"><span id="streak-count">0</span> days</p>
+            <button id="reset-streak" class="btn btn-ghost" type="button">Reset</button>
           </article>
           <article class="card">
-            <h3>Suggestion Spinner</h3>
-            <p id="spinner-output">Tap to generate your next fan challenge.</p>
-            <button id="spin-btn" class="btn btn-primary" type="button">Spin Idea</button>
+            <h3>Battle Poll</h3>
+            <p>Vote the current format war winner:</p>
+            <div class="button-row">
+              <button data-vote="loop" class="btn btn-ghost vote-btn" type="button">Loop Edit</button>
+              <button data-vote="thread" class="btn btn-ghost vote-btn" type="button">Lore Thread</button>
+            </div>
+            <p class="small">Loop: <span id="loop-votes">0</span> | Thread: <span id="thread-votes">0</span></p>
           </article>
         </div>
       </section>
 
-      <section id="pulse-board" class="panel panel-accent">
-        <h2>Pulse Board (Community Heat)</h2>
+      <section id="ops-console" class="panel panel-accent">
+        <h2>Traction Ops Console</h2>
         <div class="stats">
           <div>
-            <span class="stat-label">Current challenge</span>
-            <strong>#NeonGlowEdit</strong>
+            <span class="stat-label">Current campaign</span>
+            <strong id="campaign-tag">#MidnightLoreDrop</strong>
           </div>
           <div>
-            <span class="stat-label">Fan streak target</span>
-            <strong>14 days</strong>
+            <span class="stat-label">Retention target</span>
+            <strong>14-day streak ring</strong>
           </div>
           <div>
-            <span class="stat-label">Top post format</span>
-            <strong>10s loop + poll</strong>
+            <span class="stat-label">Top format</span>
+            <strong id="top-format">8s loop + quote-war</strong>
           </div>
         </div>
       </section>
@@ -161,7 +171,7 @@
 
     <footer>
       <p>
-        Built for fans. Optimized for creativity, discovery, and repeat engagement.
+        Built for night-owl fans: optimized for discovery loops, retention, and repeat engagement.
       </p>
       <p>
         Update canonical and social preview URLs before launch.

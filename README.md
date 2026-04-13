@@ -5,8 +5,8 @@ First version of an SEO-focused Eva Elfie fan page with a TikTok-inspired layout
 ## Launch on GitHub Pages
 
 1. Push this repository to GitHub.
-2. In **Settings → Pages**, set **Source** to **GitHub Actions**.
-3. Push to `main` to trigger deployment via `.github/workflows/deploy-pages.yml`.
+2. Push to `main` to trigger deployment via `.github/workflows/deploy-pages.yml`.
+3. The workflow requests automatic GitHub Pages enablement (`enablement: true`). If your org policy blocks that, enable Pages once in **Settings → Pages**.
 
 ## SEO setup checklist
 
