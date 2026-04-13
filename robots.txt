@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://YOUR-USERNAME.github.io/i-love-eva-elfie/sitemap.xml
